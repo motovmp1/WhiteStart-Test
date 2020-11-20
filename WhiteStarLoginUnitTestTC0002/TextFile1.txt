@@ -1,0 +1,13 @@
+﻿1 - Unit Test Framework
+
+2 - install appium 4.2.1
+
+3 - run server na pasta
+C:\Program Files (x86)\Windows Application Driver
+
+4 - criar github
+
+5 path
+"C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTestTC0002\bin\Debug\WhiteStarLoginUnitTestTC0002.dll"
+
+dotnet vstest WhiteStarLoginUnitTestTC0002.dll
