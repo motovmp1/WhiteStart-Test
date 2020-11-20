@@ -29,6 +29,7 @@ namespace WhiteStarLoginUnitTestTC0002
             var message = Driver.FindElementByAccessibilityId("lbl_loginsucess").Text;
             Console.WriteLine(message);
             Assert.AreEqual("Congratulations Sucess! ", message);
+            Console.WriteLine("Compare message login");
             Thread.Sleep(3000);
             Driver.FindElementByName("EXIT").Click();
             
