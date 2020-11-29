@@ -12,7 +12,7 @@ namespace WhiteStarLoginUnitTestTC0002
         [TestMethod]
         public void TestMethod1()
         {
-            int human_action = 2000;
+            int human_action = 150;
 
             AppiumOptions appOptions = new AppiumOptions();
             appOptions.AddAdditionalCapability("app", @"C:\Users\User01\source\repos\LoginaWHLoad\LoginaWHLoad\bin\Debug\LoginaWHLoad.exe");
