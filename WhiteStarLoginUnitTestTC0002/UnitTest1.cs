@@ -12,6 +12,8 @@ namespace WhiteStarLoginUnitTestTC0002
         [TestMethod]
         public void TestMethod1()
         {
+            int human_action = 2000;
+
             AppiumOptions appOptions = new AppiumOptions();
             appOptions.AddAdditionalCapability("app", @"C:\Users\User01\source\repos\LoginaWHLoad\LoginaWHLoad\bin\Debug\LoginaWHLoad.exe");
 
@@ -19,18 +21,18 @@ namespace WhiteStarLoginUnitTestTC0002
 
             Assert.AreEqual("White Star Login Form", Driver.Title);
             Console.WriteLine(Driver.Title);
-            Thread.Sleep(2000);
+            Thread.Sleep(human_action);
             Driver.FindElementByAccessibilityId("txtb_User").SendKeys("Vinicius Miranda de Pinho");
-            Thread.Sleep(1000);
+            Thread.Sleep(human_action);
             Driver.FindElementByAccessibilityId("txtb_Password").SendKeys("12345678");
-            Thread.Sleep(1000);
+            Thread.Sleep(human_action);
             Driver.FindElementByName("LOGIN").Click();
-            Thread.Sleep(500);
+            Thread.Sleep(human_action);
             var message = Driver.FindElementByAccessibilityId("lbl_loginsucess").Text;
             Console.WriteLine(message);
             Assert.AreEqual("Congratulations Sucess! ", message);
             Console.WriteLine("Compare message login");
-            Thread.Sleep(3000);
+            Thread.Sleep(human_action);
             Driver.FindElementByName("EXIT").Click();
             
 
