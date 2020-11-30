@@ -17,7 +17,6 @@ C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTest
 C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTestTC0002\bin\Debug\Newtonsoft.Json.xml
 C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTestTC0002\bin\Debug\WebDriver.xml
 C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTestTC0002\bin\Debug\WebDriver.Support.xml
-C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTestTC0002\obj\Debug\WhiteStarLoginUnitTestTC0002.csprojAssemblyReference.cache
 C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTestTC0002\obj\Debug\WhiteStarLoginUnitTestTC0002.csproj.CoreCompileInputs.cache
 C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTestTC0002\obj\Debug\WhiteStarLoginUnitTestTC0002.csproj.CopyComplete
 C:\Users\User01\source\repos\WhiteStarLoginUnitTestTC0002\WhiteStarLoginUnitTestTC0002\obj\Debug\WhiteStarLoginUnitTestTC0002.dll
